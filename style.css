@@ -30,7 +30,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .nav {
@@ -261,5 +261,78 @@ header {
 }
 
 .form__button:hover {
+  background-color: #1c3e95;
+}
+
+/*Section*/
+
+.section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 655px;
+  background-color: #fff;
+  background-image: url("./assets/sectionImage.png");
+}
+
+.section__inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section__title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 6.3rem;
+  font-weight: 700;
+  color: #1c3e95;
+  margin-top: 72px;
+  margin-bottom: 8px;
+}
+
+.section__subtitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #1c3e95;
+}
+
+.section__text {
+  margin-top: 24px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.7rem;
+  width: 792px;
+  line-height: 24px;
+}
+
+.text__entry {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text__continuation {
+  font-weight: 400;
+}
+
+.section__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 56px;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: #fe7a22;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 52px;
+}
+
+.section__button:hover {
   background-color: #1c3e95;
 }
