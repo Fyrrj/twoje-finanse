@@ -273,6 +273,8 @@ header {
   height: 655px;
   background-color: #fff;
   background-image: url("./assets/sectionImage.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 .section__inner {
@@ -335,4 +337,51 @@ header {
 
 .section__button:hover {
   background-color: #1c3e95;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 315px;
+  background-color: #1c3e95;
+  justify-content: center;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-top: 61px;
+}
+
+.col__title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.list__link {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #fff;
+  margin-bottom: 7px;
+  line-height: 26px;
+}
+
+.list__link:hover {
+  color: #fe7a22;
+}
+
+.contact {
+  font-family: "Quicksand";
+  font-size: 2.5rem;
+  color: #fe7a22;
 }
