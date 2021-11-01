@@ -147,7 +147,7 @@ header {
 .header__inner {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -156,15 +156,16 @@ header {
 
 .header__banner {
   position: absolute;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  display: flex;
   height: 259px;
   width: 100%;
-  padding-left: 360px;
-  font-family: "Quicksand", sans-serif;
   background-color: rgba(28, 62, 149, 0.75);
+}
+
+.banner__content {
+  font-family: "Quicksand", sans-serif;
+  margin-top: 480px;
+  z-index: 2;
 }
 
 .banner__title {
@@ -280,6 +281,7 @@ header {
 .section__inner {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   max-width: 1200px;
 }
@@ -289,7 +291,6 @@ header {
   font-size: 6.3rem;
   font-weight: 700;
   color: #1c3e95;
-  margin-top: 72px;
   margin-bottom: 8px;
 }
 
@@ -385,3 +386,5 @@ header {
   font-size: 2.5rem;
   color: #fe7a22;
 }
+
+/*RWD*/
