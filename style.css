@@ -24,6 +24,8 @@ a {
   color: inherit;
 }
 
+/*Nav*/
+
 .container {
   display: flex;
   flex-direction: column;
@@ -124,4 +126,140 @@ a {
 
 .option__link:hover {
   color: #fe7a22;
+}
+
+/*Header*/
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 732px;
+  background-image: url("./assets/headerImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.header__banner {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 259px;
+  width: 100%;
+  padding-left: 360px;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(28, 62, 149, 0.75);
+}
+
+.banner__title {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #fe7a22;
+  padding-top: 48px;
+  margin-bottom: 8px;
+}
+
+.banner__text {
+  font-size: 3rem;
+  font-size: 700;
+  color: #fff;
+  padding-bottom: 64px;
+}
+
+.header__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 489px;
+  height: 604px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 1410;
+}
+
+.form__title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.4rem;
+  color: #1c3e95;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  height: 47px;
+  border: 1px solid #979494;
+  padding-left: 16px;
+  margin-bottom: 12px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.7rem;
+  outline: none;
+  transition: 0.2s;
+}
+
+.form__input:focus {
+  border-color: #1c3e95;
+  color: #1c3e95;
+}
+
+.input__place {
+  width: 247px;
+  margin-right: 13px;
+}
+
+.input__zipcode {
+  width: 146px;
+}
+
+.form__check {
+  width: 17px;
+  height: 17px;
+  border: 1px solid #979494;
+  margin-right: 14px;
+}
+
+.form__terms {
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #979494;
+  line-height: 18px;
+  margin-bottom: 16px;
+}
+
+.form__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 205px;
+  height: 48px;
+  background-color: #fe7a22;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #1c3e95;
 }
