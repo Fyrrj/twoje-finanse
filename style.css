@@ -43,6 +43,14 @@ a {
   font-family: "Lato", sans-serif;
 }
 
+.menu {
+  display: none;
+}
+
+.menu__icon {
+  display: none;
+}
+
 .nav__inner {
   display: flex;
   flex-direction: row;
@@ -388,3 +396,408 @@ header {
 }
 
 /*RWD*/
+@media (max-width: 1199.98px) {
+  .nav__options {
+    display: none;
+  }
+
+  .menu__icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #fe7a22;
+    transition: 0.2s;
+    cursor: pointer;
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .menu__icon:hover {
+    color: #0312a0;
+  }
+
+  .menu {
+    position: absolute;
+    top: -300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fe7a22;
+    height: 300px;
+    z-index: 1411;
+    transition: 0.2s;
+  }
+
+  .menu__link {
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.2s;
+  }
+
+  .menu__link:hover {
+    color: #000;
+  }
+
+  .menu__option {
+    margin-bottom: 15px;
+  }
+
+  .header {
+    height: 300px;
+  }
+
+  .header__inner {
+    flex-direction: column;
+  }
+
+  .header__banner {
+    height: 200px;
+  }
+
+  .banner__content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .banner__title {
+    font-size: 3rem;
+  }
+  .banner__text {
+    font-size: 2rem;
+  }
+
+  .header__form {
+    width: 489px;
+    height: 820px;
+  }
+
+  .form__title {
+    font-size: 2rem;
+  }
+
+  .form__button {
+    margin-top: 40px;
+  }
+
+  .section {
+    height: 700px;
+    margin-top: 580px;
+  }
+
+  .section__inner {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .section__subtitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .section__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .section__button {
+    margin: 60px 0 20px 0;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__col {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .nav__options {
+    display: none;
+  }
+
+  .menu__icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #fe7a22;
+    transition: 0.2s;
+    cursor: pointer;
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .menu__icon:hover {
+    color: #0312a0;
+  }
+
+  .menu {
+    position: absolute;
+    top: -300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fe7a22;
+    height: 300px;
+    z-index: 1411;
+    transition: 0.2s;
+  }
+
+  .menu__link {
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.2s;
+  }
+
+  .menu__link:hover {
+    color: #000;
+  }
+
+  .menu__option {
+    margin-bottom: 15px;
+  }
+
+  .header {
+    height: 300px;
+  }
+
+  .header__inner {
+    flex-direction: column;
+  }
+
+  .header__banner {
+    height: 200px;
+  }
+
+  .banner__content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .banner__title {
+    font-size: 3rem;
+  }
+  .banner__text {
+    font-size: 2rem;
+  }
+
+  .header__form {
+    width: 489px;
+    height: 820px;
+  }
+
+  .form__title {
+    font-size: 2rem;
+  }
+
+  .form__button {
+    margin-top: 40px;
+  }
+
+  .section {
+    height: 700px;
+    margin-top: 580px;
+  }
+
+  .section__inner {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .section__subtitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .section__text {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .section__button {
+    margin: 60px 0 20px 0;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__col {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .nav__options {
+    display: none;
+  }
+
+  .menu__icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #fe7a22;
+    transition: 0.2s;
+    cursor: pointer;
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .menu__icon:hover {
+    color: #0312a0;
+  }
+
+  .menu {
+    position: absolute;
+    top: -300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fe7a22;
+    height: 300px;
+    z-index: 1411;
+    transition: 0.2s;
+  }
+
+  .menu__link {
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.2s;
+  }
+
+  .menu__link:hover {
+    color: #000;
+  }
+
+  .menu__option {
+    margin-bottom: 15px;
+  }
+
+  .header {
+    height: 300px;
+  }
+
+  .header__inner {
+    flex-direction: column;
+  }
+
+  .header__banner {
+    height: 200px;
+  }
+
+  .banner__content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .banner__title {
+    font-size: 3rem;
+  }
+  .banner__text {
+    font-size: 2rem;
+  }
+
+  .header__form {
+    width: 350px;
+    height: 820px;
+  }
+
+  .form__title {
+    font-size: 2rem;
+  }
+
+  .form__button {
+    margin-top: 40px;
+  }
+
+  .section {
+    height: 700px;
+    margin-top: 780px;
+  }
+
+  .section__inner {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .section__subtitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .section__text {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .section__button {
+    margin: 20px 0;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__col {
+    margin-bottom: 40px;
+  }
+}
